@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    
+    // 打开文件 
     FILE *fp = fopen(filename, "r");
     if (fp == NULL) {
         printf("Error: cannot open file %s\n", filename);
