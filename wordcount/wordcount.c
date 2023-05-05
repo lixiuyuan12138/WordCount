@@ -36,7 +36,7 @@ int main(int argc, char *argv[]) {
             if (parameter[1] == 'c') {
                 count++;
             } else if (parameter[1] == 'w') {
-                if (line[i] == ' ' || line[i] == ',' || line[i] == '\t' || line[i] == '\n') {
+                if (line[i] == ' ' || line[i] == ',') {
                     is_word = 0;
                 } else if (is_word == 0) {
                     is_word = 1;
